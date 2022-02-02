@@ -113,8 +113,43 @@ else{
 // 42.08
 
 
+var number1=50;
+var number2=100;
+
+if(number1>number2){
+                    console.log(number1,"Big")
+}
+// else if(number1<number2){
+//                     console.log(number1,"small")
+// }
+
+else{
+                    console.log(number2, "big");
+}
 
 
+var number1=400;
+var number2=400;
+
+if(number1>number2){
+                    console.log(number1,"big")
+}
+
+else if(number1==number2){
+                    console.log("they are same")
+}
+
+else{
+                    console.log(number2, "big")
+}
+
+// turnary operator
+
+// var result=(condition)?"":"";
+
+var result=(number1 > number2) ?"number1 is big":"number2 is big"
+
+console.log(result);
 
 
 
