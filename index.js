@@ -151,6 +151,8 @@ var result=(number1 > number2) ?"number1 is big":"number2 is big"
 
 console.log(result);
 
+// 1.02 34
+
 
 
 
